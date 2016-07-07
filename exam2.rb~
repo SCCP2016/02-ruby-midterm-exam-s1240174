@@ -1,0 +1,26 @@
+x = STDIN.gets.to_i
+y = STDIN.gets.to_i
+
+if x <= 12 && 0 <= x && y == 0 then
+  puts '700'
+
+elsif x <=18 && 22 < x && y == 0 then
+  puts '1000'
+
+elsif x <= 22 && 18 < x && y == 0 then
+  puts '1200'
+
+elsif x < 22  && y == 0then
+  puts '1500'
+
+elsif x <= 12 && 0 <= x && y == 1 then
+  puts '500'
+
+elsif x <=18 && 22 < x && y == 1 then
+  puts '800'
+
+elsif x <= 22 && 18 < x && y == 1 then
+  puts '1000'
+
+elsif x < 22 && y == 1 then
+  puts '1300'

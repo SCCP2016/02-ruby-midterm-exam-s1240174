@@ -21,25 +21,23 @@
 
 標準出力に Hello World と出力するRubyのプログラムを書け。
 
-puts "Hello World"
+```ruby
+
+```
 
 ## 2. 適切なものを選び、説明を埋めよ
 
 次のうち、Rubyに存在しない型はどれか? また、存在する型について具体的な値を書け。
 *Fixnum*, *Bignum*, *Float*, *Bool*, *String*
 
+```
 # 存在しない型
-*Bool*
+
 # 存在する型と具体例
 # [答え方の例]
 # 型: 具体例
 
-[Float: 1.1.ceil => 2]
-[Fixnum:  四則演算で、1 + 2 => 3]
-[Bignum: 四則演算で、11 % 5 => 1]
-[String: 文字列の連結で、'Hello, ' + 'world!' => "Hello, world!"]
-
-
+```
 
 ## 3. 適切なプログラムを書け
 
