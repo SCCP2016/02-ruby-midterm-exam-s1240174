@@ -67,7 +67,6 @@ puts "Hello World"
 # 出力例2
 # 1000
 
-
 age, sex = STDIN.gets.split.map(&:to_i)
 
 
@@ -80,16 +79,16 @@ elsif age <=18 && 22 < age then
 elsif age <= 22 && 18 < age then
   x = 1200 
   
-elsif age > 22 then
-  x  = 1500 
+else 
+   x  = 1500 
  
 end
   
 if sex == 1 then
   x -= 200
 end
-  puts 'x'
-end
+
+  puts x
 
 
 ## 4. 適切なプログラムを書け
@@ -105,7 +104,7 @@ end
 
 ```ruby
 # 入力例
-# ab5?cd
+#ab5?cd
 # 出力例
 ab5?cd
 6
@@ -113,7 +112,7 @@ dc?5ba
 AB5?CD
 b5?c
 AB?Cd
-```
+
 
 ## 5. 適切なプログラムを書け
 
