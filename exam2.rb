@@ -1,27 +1,22 @@
-age , sex = STDIN.gets.to_i
+age, sex = STDIN.gets.split.map(&:to_i)
 
-if age <= 12 && 0 <= age && sex == 0 then
-  puts '700'
 
-elsif age <=18 && 22 < age && sex == 0 then
-  puts '1000'
-
-elsif age <= 22 && 18 < age && sex == 0 then
-  puts '1200'
-
-elsif age < 22  && sex == 0 then
-  puts '1500'
-
-elsif age <= 12 && 0 <= age && sex == 1 then
-  puts '500'
-
-elsif age <=18 && 22 < age && sex == 1 then
-  puts '800'
-
-elsif age <= 22 && 18 < age && sex == 1 then
-  puts '1000'
-
-elsif age < 22 && sex == 1 then
-  puts '1300'
-
+if age <= 12 && 0 <= age then
+  x = 700
+    
+elsif age <=18 && 22 < age then
+  x = 1000
+  
+elsif age <= 22 && 18 < age then
+  x = 1200 
+  
+elsif age > 22 then
+  x  = 1500 
+ 
+end
+  
+if sex == 1 then
+  x -= 200
+end
+  puts 'x'
 end
